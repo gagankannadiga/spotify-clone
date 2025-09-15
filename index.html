@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAGAN</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="shortcut icon" href="thumbnail/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="layout">
+        <div class="navbar">
+            <!-- Left side -->
+            <div class="nav-left">
+                <img src="./Images/logo.svg" alt="Spotify" class="logo">
+                <a href="./index.html"><img src="./Images/home.png" alt="Home" class="home-icon grow"></a>
+                <div class="search-container">
+                    <img src="./Images/search.svg" alt="Search" class="search">
+                    <input type="text" placeholder="What do you want to play?">
+                </div>
+            </div>
+
+            <!-- Right side -->
+            <div class="nav-right">
+                <a href="#" class="grow hide">Premium</a>
+                <a href="#" class="grow hide">Support</a>
+                <a href="#" class="grow hide">Download</a>
+                <div class="divider"></div>
+                <div class="install grow">
+                    <img src="./Images/download.svg" alt="Install">
+                    <span class="">Install App</span>
+                </div>
+                <span class="signup grow">Sign up</span>
+                <button class="login-btn grow">Log in</button>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="left">
+                
+                <div class="lib">
+                    <span class="dabba">
+                        <h1 class="text716">Your Library</h1>
+                        <img src="./Images/library.svg" width="50">  
+                    </span>
+                    <div>
+                        <img src="./Images/cross.png" class="cross">
+                    </div>
+                    
+                </div>
+                <div class="album">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="spotifyplaylist">
+                    <div class="right-head">
+                        <div class="ham">
+                        <div class="hamburger"><img src="./Images/hamburger.png" alt=""></div>
+                        <h1 style="color:#008000; text-shadow: 2px 2px 2px black;">Trending Songs</h1>
+                        </div>
+                        <h4 style="color:white;text-shadow: 0.9px 0.9px 0.9px black;">Show More</h4>
+                    </div>
+                    
+                    <div class="cardContainer">
+                    </div>
+                </div>
+                <div class="right-head">
+                    <h4 style="color:white;text-shadow: 0.9px 0.9px 0.9px black;">Artist Gallery</h4>
+                    <h5 style="font-size: small;  color:white;text-shadow: 0.9px 0.9px 0.9px black;">Show More</h5>
+                </div>
+                <div class="artistGallery">
+                    <div class="artistContainer">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="foot-play">
+
+
+            <div class="playbar">
+
+                <div class="abovebar">
+                    <div class="songinfo"></div>
+                    <div class="songbuttons">
+                        <img width="30" height="30" id="previous" src="./Images/previous.png" alt="">
+                        <img width="30" height="30" id="play" src="./Images/play.png" alt="">
+                        <img width="30" height="30" id="next" src="./Images/next.png" alt="">
+                    </div>
+                    <div class="VolTime">
+                        <div class="songtime"></div>
+                        <div class="volume" style="filter: invert(1);"><img src="./Images/volume-high.png" alt="">
+                            <div class="range"><input type="range" class="volrange" min="0" max="100"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="seekbar">
+                    <div class="progress"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

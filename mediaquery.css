@@ -1,0 +1,181 @@
+@media screen and (max-width: 1100px) and (min-width: 900px) {
+  .main {
+    height: calc(100vh - 150px);
+  }
+  .left {
+    position: absolute;
+    overflow: hidden;
+    left: -120%;
+    top: 60px;
+    transition: all 0.5s ease-out;
+    z-index: 1;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: center; */
+    margin: 0;
+    /* height: max-content; */
+    width: 40vw;
+  }
+  .album {
+    margin: 0;
+  }
+
+  .right {
+    width: 100vw;
+    transition: all 0.5s ease-in;
+    flex: 1;
+  }
+
+  .navbar {
+    height: max-content;
+    width: max-content;
+    justify-content: space-between;
+    width: 100%;
+    flex-shrink: 0.8;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .foot-play {
+    width: 100%;
+  }
+  .playbar {
+    width: 100%;
+  }
+/* 
+  .artistGallery {
+    width: 100%;
+    overflow: hidden;
+    height: 30vh;
+  }
+  .artistContainer {
+    height: 363px;
+  }
+  .cardContainer {
+    height: 510px;
+  }
+
+  .spotifyplaylist {
+    width: 100%;
+    overflow: hidden;
+    min-height: 563px;
+  } */
+  .hamburger {
+    display: block;
+  }
+
+  .cross {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    height: calc(100vh - 150px);
+    margin: 0;
+  }
+  .left {
+    position: absolute;
+    overflow: visible;
+    left: -120%;
+    top: 60px;
+    transition: all 0.5s ease-out;
+    z-index: 1;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0;
+    min-height: max-content;
+    width: 100vw;
+    margin-left: 0px;
+    z-index: 99999;
+    max-width: 80vw;
+  }
+  .lib {
+    width: 100%;
+  }
+  .album {
+    width: 100%;
+    margin: 0;
+  }
+
+  .right {
+    width: 100vw;
+    transition: all 0.5s ease-in;
+    flex: 1;
+  }
+
+  .navbar {
+    width: 100%;
+    justify-content: space-between;
+    width: 100%;
+    flex-shrink: 0.8;
+  }
+
+  .hide {
+    display: none;
+  }
+  .search-container,
+  .install {
+    display: none;
+  }
+
+  .hamburger,
+  .cross {
+    display: block;
+  }
+  .card {
+    width: 110px;
+  }
+  .artistContainer {
+    height: 280px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .play > img {
+    width: 20px;
+    height: 20px;
+  }
+  .play {
+    position: absolute;
+    bottom: 90px;
+    right: 26px;
+  }
+  .foot-play {
+    min-width: max-content;
+    width: 100vw;
+  }
+  .playbar,
+  .abovebar {
+    min-width: max-content;
+    width: 100vw;
+  }
+  .abovebar {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 20px; */
+  }
+  .seekbar {
+    width: 90%;
+    bottom: 18px;
+  }
+  .VolTime {
+    gap: 30px;
+  }
+}
